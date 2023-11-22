@@ -13,18 +13,10 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
-import Footer from './Footer';
-
-
-
+import App from './components/App';
 
 
 ReactDOM.render(
-    <div>
-        <Header className = 'header'></Header>
-        <h1 className = 'header'>hello world</h1>
-        <Footer />
-    </div>,
+    <App />,
     document.getElementById("root")
 )
